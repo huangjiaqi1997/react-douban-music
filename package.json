@@ -1,0 +1,36 @@
+{
+  "name": "react-douban-music",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://huangjiaqi1997.github.io/react-douban-music",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "react-scripts": "^0.8.4",
+    "redux-immutable-state-invariant": "^1.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "install": "^0.12.2",
+    "mongoose": "^4.13.3",
+    "react": "^15.4.1",
+    "react-addons-perf": "^15.4.1",
+    "react-audio-spectrum": "^0.0.9",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "utility": "^1.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "proxy": "http://tingapi.ting.baidu.com"
+}
